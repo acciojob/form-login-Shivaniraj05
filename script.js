@@ -10,6 +10,6 @@ function getFormvalue() {
             var firstName = document.querySelector('input[name="fname"]').value;
             var lastName = document.querySelector('input[name="lname"]').value;
 
-            alert("First Name: " + firstName + "\nLast Name: " + lastName);
+            alert(firstName + " " + lastName);
 
 }
